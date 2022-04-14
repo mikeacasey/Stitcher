@@ -1,7 +1,9 @@
 # Stitcher
-A simple manual image stitcher to make a composite image from partial images. No automated alignment or warping.
+A simple manual image stitcher to make a composite image from partial images. No automated alignment or warping. Best used with images captured from a computer screen. Not so great when stitching images from a panning camera.
 
-Uses lua 5.1,IUP,IM,CD works in Lua for windows (https://github.com/rjpcomputing/luaforwindows)
+Uses lua 5.1,IUP,IM,CD works in Lua for windows (https://github.com/rjpcomputing/luaforwindows
+
+
 ![image](https://user-images.githubusercontent.com/2499176/163371924-fc8340b4-99f4-4ffe-a879-5cba7cc832c0.png)
 
 
@@ -17,10 +19,10 @@ The mouse keys (Right hand mouse) have the following functions associated with t
 	Wheel rotate: Reduce/Increase transparency of upper image by 1 step
 	Wheel click: Toggle which image is upper image and lower image
 
-The keyboard keys to use are:
+The keyboard keys (US-qwerty) to use are:
 
-- qwedcxza: For 1 pixel Movement in the directions NE,N,NE,W,SE,S,SW,W (the movement keys)
-- s:	(Flash) Hide the movable image on key down and it reappears on key up
+- qwedcxza: For 1 pixel Movement in the directions NW,N,NE,E,SE,S,SW,W (the movement keys)
+- s:	(flash key) Hide the movable image on key down and it reappears on key up
 - j:	Join the movable image to the base image
 - bm:	Rotate clockwise/anticlockwise by X degrees (configurable)
 - n:	Reset rotation to 0 degrees
@@ -28,12 +30,12 @@ The keyboard keys to use are:
 How to use it:
 1. Prepare a set of images with a usable amount of overlap and organised to work left to right and top to bottom
 2. Select the first (base)image that could/should be in the top left hand corner of the final composite image. Set the background colour now, don't change it -ever
-3. Load the next (movable) image and use the mouse to drag the movable image to roughly where it should be over the baseimage (the overlapping images will appear fuzzy)
-4. Use the flash, quickly press and release the s key, the eye will pick up two (apparent) movements.
+3. Load the next (movable) image (it will appear in teh bottom left corner) and use the mouse to drag the movable image to roughly where it should be over the baseimage (the overlapping images will appear fuzzy)
+4. Use the flash key, quickly press and release the s key, the eye will pick up two (apparent) movements.
 5. The first movement is when the movable images disappears and the eye shifts focus from the features in the movable image to the same features in the baseimage.
 6. The second movement occurs when the movable image reappears and the eye shifts focus back to the features on the movable image.
 7. The better and closer the overlaps are aligned the more obvious the apparent movement.
-8. Press the movement key in the SAME direction as the FIRST apparent movement. Keep on pressing the appropriate direction keys until there is no apparent movement.
+8. Press the movement key in the SAME direction as the FIRST apparent movement. Keep on pressing the appropriate direction keys until there is no apparent movement (or you have overshot and the apparent movement is now in the opposite direction)
 9. When there is no apparent movement the overlaps between the base and movable image are aligned and the images can be joined (the overlapping images will appear sharp)
 10. Load the next image and repeat the process
 
