@@ -1,8 +1,9 @@
 # Stitcher
-Stitch images together
+A simple manual image stitcher to make a composite image from partial images. No automated alignment or warping.
 
 Uses lua 5.1,IUP,IM,CD works in Lua for windows (https://github.com/rjpcomputing/luaforwindows)
-![image](https://user-images.githubusercontent.com/2499176/163339381-e7759777-c799-4343-8f6d-c2533a02b7ad.png)
+![image](https://user-images.githubusercontent.com/2499176/163371924-fc8340b4-99f4-4ffe-a879-5cba7cc832c0.png)
+
 
 
 Starting from an initial base image, sequentially add and join images until the final composite image is complete.
