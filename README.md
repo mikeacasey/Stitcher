@@ -27,12 +27,12 @@ The keyboard keys to use are:
 How to use it:
 1. Prepare a set of images with a usable amount of overlap and organised to work left to right and top to bottom
 2. Select the first (base)image that could/should be in the top left hand corner of the final composite image
-2a. Set the background colour now, don't change it -ever
+2.1 Set the background colour now, don't change it -ever
 3. Load the next (movable) image and use the mouse to drag the movable image to roughly where it should be over the baseimage (the overlapping images will appear fuzzy)
 4. Use the flash, quickly press and release the s key, the eye will pick up two (apparent) movements
-4a. The first movement is when the movable images disappears and the eye shifts focus from the features in the movable image to the same features in the baseimage,
-4b. The second movement occurs when the movable image reappears and the eye shifts focus back to the features on the movable image
-4c. The better and closer the overlaps are aligned the more obvious the apparent movement.
+4.1 The first movement is when the movable images disappears and the eye shifts focus from the features in the movable image to the same features in the baseimage,
+4.2 The second movement occurs when the movable image reappears and the eye shifts focus back to the features on the movable image
+4.3 The better and closer the overlaps are aligned the more obvious the apparent movement.
 5. Press the movement key in the SAME direction as the FIRST apparent movement. Keep on pressing the appropriate direction keys until there is no apparent movement.
 6. When there is no apparent movement the overlaps between the base and movable image are aligned and the images can be joined (the overlapping images will appear sharp)
 7. Load the next image and repeat the process
@@ -40,10 +40,10 @@ How to use it:
 Notes:
 1. What is a usable amount of overlap? -- it depends on the detail in the images: a few tens of pixels for sat photos is good; more, for relatively featureless maps with solid colours
 2. What do you mean by organised? -- For example: capture images left to right and top to bottom and number them 1-1, 1-2, 1-3, 2-1, 2-2, ...
-2a, What if I have captured my images right to left and bottom to top? -- unlock and move the base image and/or keep on increasing the canvas size when you run out of (virtual) canvas
+2.1 What if I have captured my images right to left and bottom to top? -- unlock and move the base image and/or keep on increasing the canvas size when you run out of (virtual) canvas
 3. What if I choose the wrong next image? -- Choose next image again and the current movable image will be replaced.
 4. Choose your background colour at the start and don't change it as it is saved into the base images.
-4a. For example, if making a composite map of an island, sample the sea (right mouse key) of the first image and use that colour as the bachground colour.
+4.1 For example, if making a composite map of an island, sample the sea (right mouse key) of the first image and use that colour as the bachground colour.
 
 Useful tools:
 1. Use the alignment grid to align Lat&Long lines on a rotated map image
