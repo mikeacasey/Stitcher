@@ -5,8 +5,9 @@ Uses lua 5.1,IUP,IM,CD works in Lua for windows (https://github.com/rjpcomputing
 
 
 ![image](https://user-images.githubusercontent.com/2499176/163371924-fc8340b4-99f4-4ffe-a879-5cba7cc832c0.png)
-
-
+						Image 0.
+						
+Image 0. shows a baseimage (solid) with a moveable image (semi-transparent) being dragged by the mouse to the rougly correct position before using the movement keys for fine positioning.
 
 Starting from an initial base image, sequentially add and join images until the final composite image is complete.
 There is always a base image and a moveable image. The moveable image can be over the base image (default) or under the base image.
