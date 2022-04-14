@@ -30,7 +30,7 @@ The keyboard keys (US-qwerty) to use are:
 How to use it:
 1. Prepare a set of images with a usable amount of overlap and organised to work left to right and top to bottom
 2. Select the first (base)image that could/should be in the top left hand corner of the final composite image. Set the background colour now, don't change it -ever
-3. Load the next (movable) image (it will appear in teh bottom left corner) and use the mouse to drag the movable image to roughly where it should be over the baseimage (the overlapping images will appear fuzzy)
+3. Load the next (movable) image (it will appear in the bottom left corner) and use the mouse to drag the movable image to roughly where it should be over the baseimage (the overlapping images will appear fuzzy)
 4. Use the flash key, quickly press and release the s key, the eye will pick up two (apparent) movements.
 5. The first movement is when the movable images disappears and the eye shifts focus from the features in the movable image to the same features in the baseimage.
 6. The second movement occurs when the movable image reappears and the eye shifts focus back to the features on the movable image.
@@ -41,10 +41,10 @@ How to use it:
 
 Notes:
 1. What is a usable amount of overlap? -- it depends on the detail in the images: a few tens of pixels for sat photos is good; more, for relatively featureless maps with solid colours
-2. What do you mean by organised? -- For example: capture images left to right and top to bottom and number them 1-1, 1-2, 1-3, 2-1, 2-2, ...
-3. What if I have captured my images right to left and bottom to top? -- unlock and move the base image and/or keep on increasing the canvas size when you run out of (virtual) canvas
+2. What do you mean by organised? -- For example: capture images left to right and top to bottom and number them 1-1, 1-2, 1-3, 2-1, 2-2, ... Join them in this order.
+3. What if I have captured my images right to left and bottom to top? -- unlock and move the base image and/or keep on increasing the canvas size when you run out of (virtual) canvas. The initial virtual canvas is pretty big and can be extended (extending it doesn't use memory, it's virtual)
 4. What if I choose the wrong next image? -- Choose next image again and the current movable image will be replaced.
-5. Choose your background colour at the start and don't change it as it is saved into the base images. For example, if making a composite map of an island, sample the sea (right mouse key) of the first image and use that colour as the bachground colour.
+5. Choose your background colour at the start and don't change it as it is saved into the base images. For example, if making a composite map of an island, sample the sea (right mouse key) of the first image and use that colour as the background colour.
 
 Useful tools:
 1. Use the alignment grid to align Lat&Long lines on a rotated map image
