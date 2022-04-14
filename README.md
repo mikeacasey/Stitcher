@@ -18,11 +18,11 @@ The mouse keys (Right hand mouse) have the following functions associated with t
 
 The keyboard keys to use are:
 
-  qwedcxza: For 1 pixel Movement in the directions NE,N,NE,W,SE,S,SW,W (the movement keys)
-	s:      (Flash) Hide the movable image on key down and it reappears on key up
-	j:      Join the movable image to the base image
-	bm:		  Rotate clockwise/anticlockwise by X degrees (configurable)
-	n:		  Reset rotation to 0 degrees
+- qwedcxza: For 1 pixel Movement in the directions NE,N,NE,W,SE,S,SW,W (the movement keys)
+- s:	(Flash) Hide the movable image on key down and it reappears on key up
+- j:	Join the movable image to the base image
+- bm:	Rotate clockwise/anticlockwise by X degrees (configurable)
+- n:	Reset rotation to 0 degrees
 
 How to use it:
 1. Prepare a set of images with a usable amount of overlap and organised to work left to right and top to bottom
