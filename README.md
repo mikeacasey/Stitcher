@@ -1,13 +1,12 @@
 # Stitcher
 A simple manual image stitcher to make a composite image from partial images. No automated alignment or warping. Best used with images captured from a computer screen. Not so great when stitching images from a panning camera.
 
-Uses lua 5.1,IUP,IM,CD works in Lua for windows (https://github.com/rjpcomputing/luaforwindows
+Uses lua 5.1,IUP,IM,CD works in Lua for windows (https://github.com/rjpcomputing/luaforwindows)
 
 
 ![image](https://user-images.githubusercontent.com/2499176/163371924-fc8340b4-99f4-4ffe-a879-5cba7cc832c0.png)
-						Image 0.
 						
-Image 0. shows a baseimage (solid) with a moveable image (semi-transparent) being dragged by the mouse to the rougly correct position before using the movement keys for fine positioning.
+The picture shows a base image (solid) with a moveable image (semi-transparent) being dragged by the mouse to the roughly correct position before using the movement keys for fine positioning.
 
 Starting from an initial base image, sequentially add and join images until the final composite image is complete.
 There is always a base image and a moveable image. The moveable image can be over the base image (default) or under the base image.
@@ -51,3 +50,12 @@ Useful tools:
 1. Use the alignment grid to align Lat&Long lines on a rotated map image
 2. Use the rectangle around the base map to get the composite image roughly square.
 3. Set the background using the first image you load and then don't change it after that  (assuming the first image has the right colour).
+
+- ![image](https://user-images.githubusercontent.com/2499176/163380768-d0acccc4-a119-46ed-bf9a-b513f483f276.png)
+- ![image](https://user-images.githubusercontent.com/2499176/163380633-756e1e47-01ff-4fb9-9503-42c337fc0968.png)
+- ![image](https://user-images.githubusercontent.com/2499176/163381223-d7ed8462-87cd-4c06-8829-9770177d6753.png)
+- ![image](https://user-images.githubusercontent.com/2499176/163382693-0d1dabff-3e3d-432c-9b4d-e756beb7f568.png)
+- ![image](https://user-images.githubusercontent.com/2499176/163380301-6af55cac-de95-4bd9-a488-8376227b95a8.png)
+- ![image](https://user-images.githubusercontent.com/2499176/163379992-a570e1d0-30f8-45f9-8858-8e94a8538854.png)
+- ![image](https://user-images.githubusercontent.com/2499176/163382829-6f6ef047-8130-411c-9258-7f799d9fab1d.png)
+
