@@ -4,7 +4,7 @@ Stitch images together
 Uses lua 5.1,IUP,IM,CD works in Lua for windows (https://github.com/rjpcomputing/luaforwindows)
 ![image](https://user-images.githubusercontent.com/2499176/163339381-e7759777-c799-4343-8f6d-c2533a02b7ad.png)
 
-from help:
+
 Starting from an initial base image, sequentially add and join images until the final composite image is complete.
 There is always a base image and a moveable image. The moveable image can be over the base image (default) or under the base image.
 The upper image (moveable or base) is partially transparent to aid alignment.
